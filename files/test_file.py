@@ -1,3 +1,4 @@
+#Comprobar que el entorno funciona correctamente
 from matplotlib import pyplot as plt
 import numpy as np
 
