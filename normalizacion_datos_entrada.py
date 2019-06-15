@@ -11,3 +11,6 @@ x_test = x_test.reshape(10000, 784)
 
 print(x_train.shape)
 print(x_test.shape)
+
+test=0
+
