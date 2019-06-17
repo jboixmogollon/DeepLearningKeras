@@ -19,4 +19,8 @@ y_train = to_categorical(y_train, num_classes=10)
 y_test = to_categorical(y_test, num_classes=10)
 
     #CLASE SEQUENTIAL
-
+from keras.models import Sequential
+from keras.layers.core import Dense, Activation
+model = Sequential()
+model.add(Dense(10, activation='sigmoid', input_shape=(784,)))
+model.add(Dense(10, activation='softmax'))
